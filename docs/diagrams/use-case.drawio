@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" modified="2026-09-25T10:00:00.000Z" agent="drawio" version="24.7.8">
+  <diagram id="use-case-diagram" name="Use Case">
+    <mxGraphModel dx="1150" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="880" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Системная граница -->
+        <mxCell id="sysBoundary" value="ИС автосервиса" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=13;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="900" height="740" as="geometry"/>
+        </mxCell>
+        <!-- Акторы (стикмены, единый размер) -->
+        <mxCell id="aClientFig" value="" style="shape=actor;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="70" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="aClientLbl" value="Клиент" style="text;html=1;align=center;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="235" width="130" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="aAdvisorFig" value="" style="shape=actor;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="70" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="aAdvisorLbl" value="Мастер-приёмщик" style="text;html=1;align=center;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="415" width="170" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="aMechFig" value="" style="shape=actor;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="500" width="70" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="aMechLbl" value="Механик" style="text;html=1;align=center;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="615" width="130" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="aAdminFig" value="" style="shape=actor;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="700" width="70" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="aAdminLbl" value="Управляющий" style="text;html=1;align=center;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="815" width="150" height="25" as="geometry"/>
+        </mxCell>
+        <!-- Овалы use cases: левая колонка x=430, правая x=800, ширина 290 -->
+        <mxCell id="uc1" value="Запись на&#10;обслуживание" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="430" y="110" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc5" value="Ведение карточки&#10;клиента" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="800" y="110" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc2" value="Оформление&#10;заказ-наряда" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc3" value="Назначение работ и&#10;формирование сметы" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="800" y="270" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc4" value="Выполнение работ и&#10;закрытие наряда" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="430" y="450" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc6" value="Выдача автомобиля&#10;и оплата" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="800" y="450" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc7" value="Управление&#10;справочниками" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="430" y="630" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc8" value="Операции&#10;со складом" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="800" y="630" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc9" value="Просмотр отчётов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="615" y="790" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <!-- Ассоциации: прямые линии к границе фигур -->
+        <mxCell id="e1" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aClientFig" target="uc1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aClientFig" target="uc6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aAdvisorFig" target="uc2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aAdvisorFig" target="uc3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aAdvisorFig" target="uc5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aAdvisorFig" target="uc7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aAdvisorFig" target="uc8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e8" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aAdvisorFig" target="uc6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e9" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aMechFig" target="uc4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e10" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aAdminFig" target="uc7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e11" style="html=1;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="aAdminFig" target="uc9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
